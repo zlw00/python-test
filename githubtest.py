@@ -5,6 +5,7 @@ from sys import excepthook
 import requests
 import json
 
+
 def get_username():
     while True:
         username = input("请输入github用户名：").strip()
@@ -49,6 +50,7 @@ def save_user_data(username, user):
     output_path = data_dir / f"{username}.json"
     output_path.write_text(json.dumps(user, ensure_ascii=False, indent=4), encoding="utf-8")
     print(f"查询结果已保存到{output_path}")
+
 
 def should_continue():
     """询问是否继续查询"""
