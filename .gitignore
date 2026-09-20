@@ -15,5 +15,4 @@ __pycache__/
 # Mac系统隐藏垃圾文件
 .DS_Store
 
-
 data/
