@@ -1,0 +1,19 @@
+# created by virtualenv automatically
+# 虚拟环境
+.venv/
+venv/
+
+# Python编译缓存
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 环境变量文件
+.env
+
+# Mac系统隐藏垃圾文件
+.DS_Store
+
+
+data/

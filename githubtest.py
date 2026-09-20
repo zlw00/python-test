@@ -80,7 +80,7 @@ def main():
                 save_user_data(username, user_data)
 
             if not should_continue():
-                print("程序退出。")
+                print("程序退出!")
                 break
     except KeyboardInterrupt:
         print("\n\n你按下了 Ctrl+C，程序安全退出")
